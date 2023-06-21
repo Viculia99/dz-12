@@ -13,6 +13,6 @@ public class DataProviderTests {
 
     @DataProvider(name="deregisterPartnership")
     public static Object [][] partnerDivorcedDataProvider(){
-        return new Object[][]{{"Daria", true}, {"Bilyk", true}, {63}, {"",false}};
+        return new Object[][]{{"Daria"}, {"Bilyk"}, {63}, {null}};
     }
 }
